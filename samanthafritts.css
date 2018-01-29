@@ -1,0 +1,48 @@
+body {
+    background: pink;
+}
+.box {
+    border:1px solid black;
+    margin: 10px 150px;
+}
+.top {
+    height:400px;
+    background-image: url("https://static.pexels.com/photos/192938/pexels-photo-192938.jpeg");
+    background-size: cover;
+    color: pink;
+}
+#profile:hover, #Portfolio:hover, #Contact:hover, .top:hover {
+    border: 1px solid black;
+
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: hotpink;
+}
+#profile {
+    height: 350px;
+    color: pink;
+    width: 33.3%;
+    background-image: url("https://wallpaperclicker.com/storage/wallpaper/Camera-black-and-white-hd-wallpaper-15533317.jpg");
+    background-size: cover;
+
+
+}
+#Portfolio {
+    height: 350px;
+    width: 33.3%;
+    background-image: url("download.jpeg");
+    background-size: cover;
+}
+#Contact {
+    height: 350px;
+    width: 33.3%;
+    background-image: url("https://static.pexels.com/photos/220357/pexels-photo-220357.jpeg");
+    background-size: cover;
+}
+p, h1 {
+    text-align: center;
+    margin-top: 165px;
+    font-size: 40px;
+    color: hotpink;
+}
